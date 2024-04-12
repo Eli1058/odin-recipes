@@ -1,17 +1,21 @@
+
 .recipes-list{
-    background-color: rgba(0,100,100,0.3);
+    background-color: rgba(200,220,230,0.6);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 16px 10px;
+    border: 12px groove whitesmoke;
 }
 .header{
-    color: beige;
+    color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgba(175,200,200,0.8);
+    margin: 36px auto;
+    padding: 20px;
+    width: 400px;
+    border: 16px groove whitesmoke;
 }
 body{
     background-color: hsl(25, 25%, 50%);
-}
-*{
-    color: beige;
-    text-align: center;
 }
 .picture{
     display: block;
@@ -21,4 +25,20 @@ body{
 .ingredients,
 .steps{
     color: rgb(150, 200, 250);
+}
+#hamburger,
+#lasagna,
+#carrot-cake{
+    padding: 16px;
+    display: inline-block;
+    margin: 8px 0px;
+    background-color:  rgba(175,200,200,0.8);
+    width: 400px;
+    border: 8px inset whitesmoke;
+}
+
+*{
+    color: whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
 }
